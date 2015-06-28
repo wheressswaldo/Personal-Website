@@ -1172,7 +1172,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   position: relative;
   float: left;
   list-style: none;
-  margin: 0 0 58px;
+  margin: 0 0 20px;
   padding: 0;
 }
 
@@ -1375,7 +1375,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   display: block;
   margin: 0 auto;
   float: none;
-  padding: auto auto 30px;
+  padding: 0 0 20px;
   border-bottom: 1px dashed rgba(255, 255, 255, .5);
   width: 140px;
 }
