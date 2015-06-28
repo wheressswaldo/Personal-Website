@@ -1367,7 +1367,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   display: block;
   margin: 0 auto;
   float: none;
-  padding: 0 0 30px;
+  padding: auto auto 30px;
   border-bottom: 1px dashed rgba(255, 255, 255, .5);
   width: 140px;
 }
