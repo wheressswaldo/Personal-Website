@@ -1362,6 +1362,14 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   margin: 0;
 }
 
+.portfolio-extra ul {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 24px;
+  list-style: none;
+}
+
 .portfolio-extra:after {
   content: "";
   display: block;
