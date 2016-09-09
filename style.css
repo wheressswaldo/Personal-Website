@@ -415,7 +415,7 @@ li#about-link a.nav-current {
   border-color: #f66152;
 }
 
-li#about-link a.nav-current h3, li#resume-link a.nav-current h3, li#portfolio-link a.nav-current h3, li#contact-link a.nav-current h3 {
+li#about-link a.nav-current h3, li#resume-link a.nav-current h3, li#portfolio-link a.nav-current h3 {
   font-weight: normal;
   padding-top: 12px;
 }
@@ -440,15 +440,6 @@ li#portfolio-link a.nav-current {
 
 li#portfolio-link a.nav-current h3, #portfolio-link a.nav-current i {
   color: #3498db;
-}
-
-li#contact-link a.nav-current {
-  border-width: 2px;
-  border-color: #424242;
-}
-
-li#contact-link a.nav-current h3, #contact-link a.nav-current i {
-  color: #424242;
 }
 
 /* SOCIAL */
@@ -1396,174 +1387,6 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
 
 /**
  * ----------------------------------------------------------------------------------------
- * CONTACT
- * ----------------------------------------------------------------------------------------
- */
-
-#contact, #contact .cat-pages-title h2 {
-  background-color: #424242;
-}
-
-#contact {
-  display: block;
-  visibility: hidden;
-  z-index: 0;
-}
-
-.single-contact-page #contact {
-  z-index: 1;
-}
-
-.googlemap {
-  display: block;
-  position: relative;
-  float: none;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-#map-canvas {
-  display: block;
-  padding: 0;
-  margin: 0 0 36px;
-  min-height: 280px;
-  width: 100%;
-}
-
-.contact-section {
-  display: block;
-  position: relative;
-  float: none;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.contact-info {
-  padding-left: 4px;
-}
-
-.contact-section p {
-  letter-spacing: 0.05em;
-}
-
-.contact-section ul {
-  display: block;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.contact-section ul li {
-  display: block;
-  margin: 0 0 24px;
-  padding: 0;
-  list-style: none;
-}
-
-.contact-section ul li:first-child {
-  margin-top: 36px;
-}
-
-
-.contact-section ul li i {
-  display: inline-block;
-  font-size: 20px;
-  border-bottom: 1px dashed rgba(255, 255, 255, .4);
-  padding: 0 0 4px 0;
-  margin: 0;
-}
-
-.contact-section ul li p {
-  display: inline-block;
-  padding: 0 0 0 10px;
-  margin: 0;
-}
-
-.contact-form {
-  padding-right: 4px;
-}
-
-.contact-form form {
-  display: block;
-  position: relative;
-  margin: 18px 0 0 0;
-}
-
-.contact-form form input[type="text"], 
-.contact-form form input[type="email"],
-.contact-form form textarea {
-  display: block;
-  position: relative;
-  width: 88%;
-  min-height: 36px;
-  outline: none;
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, .4);
-  font-size: 13px;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  padding: 0 24px;
-  margin: 0 0 24px 10%;
-}
-
-.contact-form form input[type="text"]:focus, 
-.contact-form form input[type="email"]:focus,
-.contact-form form textarea:focus {
-  border: 1px solid rgba(255, 255, 255, .8);
-}
-
-.contact-form form input[type="text"], 
-.contact-form form input[type="email"] {
-  min-height: 36px;
-  padding: 0 18px;
-}
-
-.contact-form form textarea {
-  min-height: 144px;
-  padding: 10px 18px;
-  resize: none;
-}
-
-
-.contact-form form input[type="submit"] {
-  display: block;
-  margin-left: 10%;
-  min-height: 36px;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-weight: 300;
-  background-color: rgba(255, 255, 255, .1);
-  border: 1px solid rgba(255, 255, 255, .4);
-  padding: 6px 24px;
-  -webkit-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease;
-}
-
-.contact-form form input[type="submit"]:hover {
-  background-color: rgba(255, 255, 255, .2);
-  border: 1px solid rgba(255, 255, 255, .8);
-}
-
-.contact-form form label {
-  display: block;
-  position: relative;
-  margin: -18px 0 18px 10%;
-}
-
-#cf-success, #cf-error {
-  display: none;
-  opacity: 0;
-  margin-left: 10%;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-/**
- * ----------------------------------------------------------------------------------------
  * RESPONSIVE
  * ----------------------------------------------------------------------------------------
  */
@@ -1696,11 +1519,6 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
   .portfolio-description p { font-size: 11px; letter-spacing: 0.02em; line-height: 16px; }
   .quotes ul li { font-size: 13px; }
   .quotes ul:before { padding-left: 12px; }
-  .contact-info { padding-right: 0; }
-  .contact-section p, .contact-section ul li p { font-size: 13px; }
-  .contact-form form input[type="text"], .contact-form form input[type="email"] { font-size: 12px; padding-top: 1px; }
-  .contact-form form textarea { font-size: 12px;}
-  .contact-form form input[type="submit"] { font-size: 12px; padding: 4px 22px; }
 }
 
 @media only screen and (min-width: 1202px) and (max-width: 1367px) {
@@ -1708,7 +1526,6 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
   .quotes { margin-bottom: 24px; }
   .quotes ul { min-height: 180px; }
   .quotes ul:before { padding-left: 12px; }
-  .contact-form form input[type="submit"] { margin-bottom: 24px; }
   .ajax-popup { padding-left: 0; padding-right: 0; }
 }
 
@@ -1745,12 +1562,6 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
   .quotes ul { min-height: 200px;  }
   .quotes ul li { font-size: 13px; }
   .quotes ul:before { padding-left: 12px; }
-  .contact-section p, .contact-section ul li p { font-size: 13px; }
-  .contact-form form { margin-bottom: 24px; }
-  .contact-form form input[type="text"], .contact-form form input[type="email"] { font-size: 12px; padding-top: 1px; margin-left: 5%; }
-  .contact-form form textarea { font-size: 12px; margin-left: 5%;}
-  .contact-form form input[type="submit"] { font-size: 12px; padding: 4px 22px; margin-left: auto; margin-right: auto; float: none; }
-  .contact-form form label, #cf-success, #cf-error { margin-left: 5%; }
   .ajax-popup { padding-left: 0; padding-right: 0; }
   #map-canvas { min-height: 200px; }
 }
@@ -1850,12 +1661,6 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
   .container { width: 100%; }
   .popup-close { right: 45%; }
   .comment-form-right { float: left; }
-  .contact-section p, .contact-section ul li p { font-size: 13px; }
-  .contact-form form { margin-bottom: 24px; float: left; }
-  .contact-form form input[type="text"], .contact-form form input[type="email"] { font-size: 12px; padding-top: 1px; margin-left: 0; }
-  .contact-form form textarea { font-size: 12px; margin-left: 0;}
-  .contact-form form input[type="submit"] { font-size: 12px; padding: 4px 22px; float: left; }
-  .contact-form form label, #cf-success, #cf-error { margin-left: 0; }
   #map-canvas { min-height: 160px; }
   .container { width: 100%; }
   .single-page .cat-left-0 { left: auto !important; }
